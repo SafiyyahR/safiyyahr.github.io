@@ -1,4 +1,4 @@
-<!DOCTYPE html>
+<!-- <!DOCTYPE html>
 <html lang=en>
 
 <head>
@@ -247,4 +247,9 @@
     </script>
 </body>
 
-</html>
+</html> -->
+<script>
+    const path = window.location.pathname.slice(1);
+    localStorage.setItem('path', path);
+    window.location.href = '../';
+</script>
